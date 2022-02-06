@@ -8,7 +8,6 @@ import medel.entities.Department;
 import medel.entities.Seller;
 import model.dao.DaoFactory;
 import model.dao.SellerDao;
-import model.dao.impl.SellerDaoJDBC;
 
 public class Program {
 
@@ -53,7 +52,6 @@ public class Program {
 		sellerDao.deleteById(id);
 		System.out.println("Deleted completed");
 		sc.close();
-
 	}
 
 }
